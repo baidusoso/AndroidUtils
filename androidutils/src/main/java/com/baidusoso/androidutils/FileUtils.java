@@ -41,7 +41,7 @@ public class FileUtils {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         try {
             byte[] buffer = new byte[1024 * 10];
-            int length = -1;
+            int length;
             while ((length = in.read(buffer)) != -1) {
                 out.write(buffer, 0, length);
             }
