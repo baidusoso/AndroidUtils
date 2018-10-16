@@ -23,6 +23,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "com.jakewharton.timber:timber:4.5.1"
+    implementation 'org.aspectj:aspectjrt:1.8.13'
 }
 def siteUrl = 'https://github.com/baidusoso/AndroidUtils'
 def gitUrl = 'https://github.com/baidusoso/AndroidUtils.git'
